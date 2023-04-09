@@ -1,24 +1,76 @@
 #mywebsite{
     font-family: arial;
+   text-align: center;
 }
 
 #landing{
     background-image: linear-gradient(to bottom, rgb(0, 0, 0,0.124),rgb(143, 211, 143,0.354)), url(../img/landing-img.jpg);
     background-size:  100%;
     background-repeat: no-repeat;
-    border: 1px solid black;
     height: 100vh;
     color: white;
     display: grid;
     place-content: center;
 }
 h1{
-    font-size: 2.9vw;
+    font-size: 3vw;
     margin-top: 100px;
     margin-bottom: 10px;
 }
 #landing p{
     font-size: 17px;
-    margin-left: 90px;
+    margin-left: 20px;
     
 }
+#blog{
+    
+    margin-top: 80px;
+}
+#blog :first-child{
+    
+    font-size: 30px;
+}
+img{
+    width: 280px;
+    height: 160px;
+    border-radius: 5px;
+}
+#blog div{
+    width: 280px;
+    height: 380px;
+   
+    display: inline-block;
+    border:1px solid gainsboro;
+    text-align: justify;
+    text-align: left;
+    margin:5px;
+    background-color: whitesmoke;
+    box-shadow: -4px 5px 5px -4px rgba(36, 34, 34, 0,75);
+    -webkit-box-shadow: -4px 5px 5px -4px rgba(36, 34, 34, 0,75);
+    -moz-box-shadow: -4px 5px 5px -4px rgba(36, 34, 34, 0,75);
+    margin :5px;
+    border-radius: 5px;
+}
+#blog h3{
+    padding-left: 35px;
+  
+}
+#blog p{
+    text-align: justify;
+    font-size: 13px;
+    padding-right: 35px;
+    padding: 20px;
+    padding-left: 35px;
+}
+#blog a{
+    padding-left: 35px;
+    text-decoration: none;
+    color:gray;
+}
+#blog a:hover{
+    color: rgb(151, 34, 34);
+}    
+
+
+
+
