@@ -1,0 +1,24 @@
+#mywebsite{
+    font-family: arial;
+}
+
+#landing{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0,0.124),rgb(143, 211, 143,0.354)), url(../img/landing-img.jpg);
+    background-size:  100%;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    height: 100vh;
+    color: white;
+    display: grid;
+    place-content: center;
+}
+h1{
+    font-size: 2.9vw;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+#landing p{
+    font-size: 17px;
+    margin-left: 90px;
+    
+}
