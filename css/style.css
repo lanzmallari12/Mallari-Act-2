@@ -70,7 +70,28 @@ img{
 #blog a:hover{
     color: rgb(151, 34, 34);
 }    
+#services{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    height: 400px;
+}
+#Services h2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 30px;
 
+}
+#sevices ul,li{
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    padding: 30px 50px;
+    display: flex;
+    display: inline;
+}
+ul :first-child{
+    background-color: rgba(223, 67, 28, 0.856);
+}
 
 
 
